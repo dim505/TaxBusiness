@@ -1,0 +1,113 @@
+.introduction-section {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.PicContainer {
+  position: relative;
+}
+
+.PicContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.PicContainer:hover .OverLay {
+  opacity: 0.5;
+}
+
+.Specialties {
+  margin-top: 10px;
+}
+
+.Specialties svg {
+  fill: BLACK;
+
+  width: 3em;
+  height: auto;
+  margin: auto;
+}
+
+.Specialties img {
+  width: 3em;
+  height: auto;
+  margin: auto;
+  display: block;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.Specialties p {
+  text-align: center;
+}
+
+.OverLay {
+  border-radius: 10px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(148, 142, 142);
+  transition: 1s;
+}
+
+
+@mixin description{
+  color: white;
+  position: relative;
+  background-color: black;
+  padding: 20px 10px;
+  margin: 0 0 20px;
+  border-radius: 5px;
+  transition: 1s;
+  z-index: 1;
+
+
+}
+
+.description-contRight {
+  @include description
+  right: 0px;
+
+}
+
+.description-contLeft {
+  left: 0px;
+ 
+}
+
+.description-contRight:hover {
+  right: 20px;
+}
+
+.description-contLeft:hover {
+  left: 20px;
+}
+
+.image-gallery-description {
+  top: 0;
+  bottom: inherit !important;
+  border: 2px solid red;
+}
+
+.AboutSection {
+  margin-left: -20px !important;
+}
+
+.Center {
+  display: flex;
+  justify-content: center;
+}
+
+.FeaturedProjectHeader {
+  color: blue;
+}

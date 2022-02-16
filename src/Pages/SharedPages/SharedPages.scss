@@ -1,0 +1,55 @@
+.ProjectTile {
+  border-radius: 5px;
+  border-left: 5px solid #202020;
+  border-bottom: 5px solid #202020;
+  border-color: BLACK;
+  padding: 20px;
+}
+
+.Header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 0px;
+}
+
+/*Full Collection button Style*/
+.FullCollectionButtonContainer {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: auto;
+}
+
+.ContactMe {
+  padding: 10px;
+}
+
+.ProjectTileHeaderHover {
+  transition: all 1s;
+  padding-right: 15px;
+}
+
+.ProjectTileHeader {
+  transition: all 1s;
+  padding-right: 0px;
+}
+
+.contact-section {
+  text-align: center;
+	
+}
+
+.SectionPadding {
+  padding-top: 75px;
+}
+
+.CenterModal {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,47 @@
+.home-header {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+
+.NavButtonsGroup {
+  width: 100%;
+  display: flex;
+  margin-right: 20px;
+}
+
+.flex-end {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.spacing {
+	height: 60px;
+	width: 100%;
+}
+
+
+
+/*SCROLL BAR CSS*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
